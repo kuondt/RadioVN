@@ -1,0 +1,8 @@
+# sinh ra khi chạy trên máy
+*.log
+.radiovn-state
+__pycache__/
+*.pyc
+
+# ảnh xem trước tạo bằng tools/preview.py
+tools/preview/

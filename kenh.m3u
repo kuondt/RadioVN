@@ -1,0 +1,51 @@
+#EXTM3U
+# Danh sách kênh của Radio VN.
+# Mỗi kênh gồm 2 dòng: dòng #EXTINF:-1,<Tên kênh> và dòng link phát.
+# Tên có dạng "VOV1 - Thời sự": phần trước dấu " - " là tên chính, phần sau là mô tả.
+# Dòng bắt đầu bằng "#" (không phải #EXTINF) là ghi chú, app bỏ qua.
+#
+# Link dự phòng của VOV (chất lượng cao hơn nhưng chuyển kênh chậm ~10 giây):
+#   https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8
+#   https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8   (vov3, vov5 tương tự)
+#   https://str.vov.gov.vn/vovlive/vovGTHN.sdp_aac/playlist.m3u8
+#   https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/playlist.m3u8
+#   https://audio-lss.vov.vn/live/giao_thong_ha_noi.m3u8
+
+#EXTINF:-1,VOV1 - Thời sự
+https://audio-lss.vov.vn/live/vov1.m3u8
+
+#EXTINF:-1,VOV2 - Văn hóa, Đời sống
+https://audio-lss.vov.vn/live/vov2.m3u8
+
+#EXTINF:-1,VOV3 - Âm nhạc, Giải trí
+https://audio-lss.vov.vn/live/vov3.m3u8
+
+#EXTINF:-1,VOV4 - Dân tộc
+https://audio-lss.vov.vn/live/vov4.m3u8
+
+#EXTINF:-1,VOV5 - Đối ngoại
+https://audio-lss.vov.vn/live/vov5.m3u8
+
+#EXTINF:-1,VOV Giao thông - Hà Nội
+https://play.vovgiaothong.vn/live/gthn/playlist.m3u8
+
+#EXTINF:-1,VOV Giao thông - TP.HCM
+https://play.vovgiaothong.vn/live/gthcm/playlist.m3u8
+
+#EXTINF:-1,VOH FM 99.9 - TP.HCM
+https://1011337676.vnns.net/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvaHR2Yy9WT0gtRk05OS45LmFkbS50bXMvIiwiZXhwIjoxOTI0OTI1MjI4fQ.zVLoKcCW3tFLySpEQHcYh11PHIxk2ZE1pj5P-GFIm1I-/htvc/VOH-FM99.9.adm.tms/playlist.m3u8
+
+#EXTINF:-1,VOH FM 95.6 - TP.HCM
+https://1011337676.vnns.net/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvaHR2Yy9WT0gtRk05NS42LmFkbS50bXMvIiwiZXhwIjoxOTI0OTI1MjI4fQ.isr2nlUkXOPGSxT-KT8FcZQFCcXn58RZrCyqoB3zDGg-/htvc/VOH-FM95.6.adm.tms/playlist.m3u8
+
+#EXTINF:-1,VOH FM 87.7 - TP.HCM
+https://1011337676.vnns.net/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvaHR2Yy9WT0gtRk04Ny43LmFkbS50bXMvIiwiZXhwIjoxOTI0OTI1MjI4fQ.uqGbd46T32wvTu5qrL2cOng9Vsf7ZHbSTE10PHpP2bE-/htvc/VOH-FM87.7.adm.tms/playlist.m3u8
+
+#EXTINF:-1,VOH AM 610 - TP.HCM
+https://1011337676.vnns.net/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvaHR2Yy9WT0gtQU02MTAuYWRtLnRtcy8iLCJleHAiOjE5MjQ5MjUyMjh9.dAa1es3LlAVnvQ-oLGNBqfEI0yz7fPrjEML_rJAklMQ-/htvc/VOH-AM610.adm.tms/playlist.m3u8
+
+#EXTINF:-1,Hà Nội FM 90 - Đài Hà Nội
+http://14.162.146.90:8000/HANOI90
+
+#EXTINF:-1,RFI Tiếng Việt - Pháp
+https://rfienvietnamien64k.ice.infomaniak.ch/rfienvietnamien-64.mp3

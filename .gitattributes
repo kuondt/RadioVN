@@ -1,0 +1,11 @@
+# script chạy trên muOS (Linux) phải giữ xuống dòng LF, kể cả khi clone trên Windows
+*.sh   text eol=lf
+*.py   text eol=lf
+*.m3u  text eol=lf
+*.conf text eol=lf
+*.gptk text eol=lf
+*.ini  text eol=lf
+*.svg  text eol=lf
+*.txt  text eol=lf
+*.ttf  binary
+*.png  binary

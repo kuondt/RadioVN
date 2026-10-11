@@ -1,0 +1,15 @@
+up = up repeat
+down = down repeat
+left = left repeat
+right = right repeat
+
+a = enter
+b = backspace
+x = space
+y = h
+select = h
+
+l1 = pageup
+r1 = pagedown
+
+start_hk = q

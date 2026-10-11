@@ -1,0 +1,39 @@
+RADIO VN - nghe radio Việt Nam qua WiFi trên muOS (RG40XXV)
+==========================================================
+
+CÀI ĐẶT
+1. Tắt máy, rút thẻ nhớ (thẻ cài muOS) cắm vào máy tính.
+2. Chép cả thư mục "RadioVN" vào:   MUOS/application/
+   => đường dẫn đúng:  MUOS/application/RadioVN/mux_launch.sh
+   (Bản cũ thì chép đè lên.)
+3. Cắm thẻ lại, bật máy, kết nối WiFi (Configuration > Network).
+4. Vào mục Applications, chọn "Radio VN".
+
+NÚT BẤM
+  Lên / Xuống     Chọn kênh trong danh sách (chưa đổi kênh)
+  L1 / R1         Lật trang danh sách
+  A               Nghe kênh đang chọn
+  B               Nhảy về kênh đang phát
+  X               Dừng / Phát tiếp
+  Trái / Phải     Giảm / tăng âm lượng trong app
+  Y               Tắt màn hình (bấm nút bất kỳ để bật lại)
+  Menu + Start    Thoát app
+  Nút âm lượng của máy vẫn dùng bình thường.
+
+Chỉ khi bấm A thì mới đổi kênh. Kênh đang phát được tô màu xanh trong danh sách.
+Cắm tai nghe 3.5mm hoặc kết nối tai nghe Bluetooth trong muOS đều nghe được.
+Lần mở sau, app tự phát lại kênh nghe gần nhất.
+
+THÊM / SỬA KÊNH
+Mở file kenh.m3u bằng Notepad, mỗi kênh 2 dòng:
+  #EXTINF:-1,Tên kênh - Mô tả
+  https://link-phat-cua-kenh
+Lưu file với mã UTF-8 để giữ dấu tiếng Việt.
+
+LỖI THƯỜNG GẶP
+- "Không phát được": link của đài có thể đã đổi.
+  Trong kenh.m3u có sẵn link dự phòng cho VOV, thay vào là được.
+- Bấm nút không ăn: gửi file radiovn-ui.log (ghi mã các nút bấm).
+- Nếu mpv bị crash, app tự mở lại (tối đa 3 lần).
+- Gửi các file radiovn.log, radiovn-ui.log, mpv.log trong thư mục RadioVN
+  khi cần báo lỗi.
